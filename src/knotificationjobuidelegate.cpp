@@ -7,6 +7,7 @@
 
 #include "knotificationjobuidelegate.h"
 
+#include <QCoreApplication>
 #include <QString>
 
 #include <KJob>
@@ -57,7 +58,11 @@ void KNotificationJobUiDelegate::showErrorMessage()
         return;
     }
 
-    d->showNotification(KNotification::Error, job()->errorString());
+    auto errorString = job()->errorString();
+    if (errorString.isEmpty()) {
+        errorString = QCoreApplication::translate("KNotificationJobUiDelegate", "An unknown error occurred while executing a job: %1").arg(job()->error());
+    }
+    d->showNotification(KNotification::Error, errorString);
 }
 
 void KNotificationJobUiDelegate::slotWarning(KJob *job, const QString &message)
