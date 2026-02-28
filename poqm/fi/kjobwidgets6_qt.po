@@ -93,11 +93,18 @@ msgid "%1 and %2"
 msgstr "%1 %2"
 
 #. Job name, e.g. Copying has failed
-#: knotificationjobuidelegate.cpp:28
+#: knotificationjobuidelegate.cpp:29
 #, qt-format
 msgctxt "KNotificationJobUiDelegate|"
 msgid "%1 (Failed)"
 msgstr "%1 (epäonnistui)"
+
+#: knotificationjobuidelegate.cpp:63
+#, fuzzy, qt-format
+#| msgid "An error occurred while accessing '%1'"
+msgctxt "KNotificationJobUiDelegate|"
+msgid "An unknown error occurred while executing a job: %1"
+msgstr "Tapahtui virhe  tiedostoa %1 luettaessa"
 
 #: kstatusbarjobtracker.cpp:161
 msgctxt "KStatusBarJobTracker|"
@@ -11375,9 +11382,6 @@ msgstr "Napsauta tästä piilottaaksesi tarkemmat tiedot ikkunasta"
 
 #~ msgid "An error occurred while accessing '%1', the system responded: %2"
 #~ msgstr "Tapahtui virhe tiedostoa ”%1” luettaessa, järjestelmä vastasi: %2"
-
-#~ msgid "An error occurred while accessing '%1'"
-#~ msgstr "Tapahtui virhe  tiedostoa %1 luettaessa"
 
 #~ msgid "Custom Path"
 #~ msgstr "Mukautettu polku"

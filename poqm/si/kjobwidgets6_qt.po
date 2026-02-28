@@ -96,12 +96,25 @@ msgid "%1 and %2"
 msgstr "%1 සහ %2"
 
 #. Job name, e.g. Copying has failed
-#: knotificationjobuidelegate.cpp:28
+#: knotificationjobuidelegate.cpp:29
 #, fuzzy, qt-format
 #| msgid "%1 (Link)"
 msgctxt "KNotificationJobUiDelegate|"
 msgid "%1 (Failed)"
 msgstr "%1 (සබැඳිය)"
+
+#: knotificationjobuidelegate.cpp:63
+#, fuzzy, qt-format
+#| msgid ""
+#| "An error occurred while attempting to run a script on this page.\n"
+#| "\n"
+#| "%1"
+msgctxt "KNotificationJobUiDelegate|"
+msgid "An unknown error occurred while executing a job: %1"
+msgstr ""
+"මෙම පිටුවේ ස්ක්‍රිප්ටයකව ධාවනය කිරීමට උත්සහ කිරීමේදී දෝෂයක් මතු විය.\n"
+"\n"
+"%1"
 
 #: kstatusbarjobtracker.cpp:161
 #, fuzzy
@@ -11411,15 +11424,6 @@ msgstr ""
 #~ msgctxt "Next breakpoint"
 #~ msgid "Next"
 #~ msgstr "මීළඟ"
-
-#~ msgid ""
-#~ "An error occurred while attempting to run a script on this page.\n"
-#~ "\n"
-#~ "%1"
-#~ msgstr ""
-#~ "මෙම පිටුවේ ස්ක්‍රිප්ටයකව ධාවනය කිරීමට උත්සහ කිරීමේදී දෝෂයක් මතු විය.\n"
-#~ "\n"
-#~ "%1"
 
 #~ msgid "English"
 #~ msgstr "ඉංග්‍රීසි"

@@ -102,12 +102,19 @@ msgid "%1 and %2"
 msgstr "%1 eyet %2"
 
 #. Job name, e.g. Copying has failed
-#: knotificationjobuidelegate.cpp:28
+#: knotificationjobuidelegate.cpp:29
 #, fuzzy, qt-format
 #| msgid "%1 (Link)"
 msgctxt "KNotificationJobUiDelegate|"
 msgid "%1 (Failed)"
 msgstr "%1 (Loyén)"
+
+#: knotificationjobuidelegate.cpp:63
+#, fuzzy, qt-format
+#| msgid "An error occurred while accessing '%1'"
+msgctxt "KNotificationJobUiDelegate|"
+msgid "An unknown error occurred while executing a job: %1"
+msgstr "Åk n' a nén stî come dj' aveut accès a « %1 »"
 
 #: kstatusbarjobtracker.cpp:161
 #, fuzzy
@@ -11498,9 +11505,6 @@ msgstr "Clitchîz çouci po catchî l' divize eyet cathî les detays."
 #~ msgid "An error occurred while accessing '%1', the system responded: %2"
 #~ msgstr ""
 #~ "Åk n' a nén stî come dj' aveut accès a « %1 », li sistinme a respondou: %2"
-
-#~ msgid "An error occurred while accessing '%1'"
-#~ msgstr "Åk n' a nén stî come dj' aveut accès a « %1 »"
 
 #~ msgid "Custom Path"
 #~ msgstr "Tchimin da vosse"

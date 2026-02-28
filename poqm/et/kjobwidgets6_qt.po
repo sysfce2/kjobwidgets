@@ -78,12 +78,19 @@ msgid "%1 and %2"
 msgstr "%1 ja %2"
 
 #. Job name, e.g. Copying has failed
-#: knotificationjobuidelegate.cpp:28
+#: knotificationjobuidelegate.cpp:29
 #, fuzzy, qt-format
 #| msgid "%1 (Link)"
 msgctxt "KNotificationJobUiDelegate|"
 msgid "%1 (Failed)"
 msgstr "%1 (viit)"
+
+#: knotificationjobuidelegate.cpp:63
+#, fuzzy, qt-format
+#| msgid "An error occurred while accessing '%1'"
+msgctxt "KNotificationJobUiDelegate|"
+msgid "An unknown error occurred while executing a job: %1"
+msgstr "Viga ligipääsul asukohale '%1'"
 
 #: kstatusbarjobtracker.cpp:161
 msgctxt "KStatusBarJobTracker|"
@@ -12267,9 +12274,6 @@ msgstr "Klõpsa dialoogi ahendamiseks, üksikasjade peitmiseks"
 
 #~ msgid "An error occurred while accessing '%1', the system responded: %2"
 #~ msgstr "Viga ligipääsul asukohale '%1', süsteem teatas: %2"
-
-#~ msgid "An error occurred while accessing '%1'"
-#~ msgstr "Viga ligipääsul asukohale '%1'"
 
 #~ msgid "Custom Path"
 #~ msgstr "Kohandatud asukoht"

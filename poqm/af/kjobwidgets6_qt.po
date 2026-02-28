@@ -77,12 +77,18 @@ msgid "%1 and %2"
 msgstr "%1 %2"
 
 #. Job name, e.g. Copying has failed
-#: knotificationjobuidelegate.cpp:28
+#: knotificationjobuidelegate.cpp:29
 #, fuzzy, qt-format
 #| msgid "%1 (Link)"
 msgctxt "KNotificationJobUiDelegate|"
 msgid "%1 (Failed)"
 msgstr "%1 (Skakel)"
+
+#: knotificationjobuidelegate.cpp:63
+#, fuzzy, qt-format
+msgctxt "KNotificationJobUiDelegate|"
+msgid "An unknown error occurred while executing a job: %1"
+msgstr "'n fout het voorgekom met die laai van <B>%1</B>:"
 
 #: kstatusbarjobtracker.cpp:161
 #, fuzzy
@@ -10902,10 +10908,6 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "An error occurred while accessing '%1', the system responded: %2"
-#~ msgstr "'n fout het voorgekom met die laai van <B>%1</B>:"
-
-#, fuzzy
-#~ msgid "An error occurred while accessing '%1'"
 #~ msgstr "'n fout het voorgekom met die laai van <B>%1</B>:"
 
 #, fuzzy

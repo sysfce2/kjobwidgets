@@ -109,12 +109,25 @@ msgid "%1 and %2"
 msgstr "%1 և %2"
 
 #. Job name, e.g. Copying has failed
-#: knotificationjobuidelegate.cpp:28
+#: knotificationjobuidelegate.cpp:29
 #, fuzzy, qt-format
 #| msgid "%1 (Link)"
 msgctxt "KNotificationJobUiDelegate|"
 msgid "%1 (Failed)"
 msgstr "%1 (Հղում)"
+
+#: knotificationjobuidelegate.cpp:63
+#, fuzzy, qt-format
+#| msgid ""
+#| "An error occurred while attempting to run a script on this page.\n"
+#| "\n"
+#| "%1"
+msgctxt "KNotificationJobUiDelegate|"
+msgid "An unknown error occurred while executing a job: %1"
+msgstr ""
+"Произошла ошибка при попытке выполнить скрипт на этой странице.\n"
+"\n"
+"%1"
 
 #: kstatusbarjobtracker.cpp:161
 #, fuzzy
@@ -11966,15 +11979,6 @@ msgstr "Սեղմեք այստեղ երկխոսությունը թաքցնելո�
 #~ msgctxt "Next breakpoint"
 #~ msgid "Next"
 #~ msgstr "До следующей точки"
-
-#~ msgid ""
-#~ "An error occurred while attempting to run a script on this page.\n"
-#~ "\n"
-#~ "%1"
-#~ msgstr ""
-#~ "Произошла ошибка при попытке выполнить скрипт на этой странице.\n"
-#~ "\n"
-#~ "%1"
 
 #~ msgid "Already open."
 #~ msgstr "Файл уже открыт."

@@ -95,12 +95,19 @@ msgid "%1 and %2"
 msgstr "%2 او‏‎‎ %1"
 
 #. Job name, e.g. Copying has failed
-#: knotificationjobuidelegate.cpp:28
+#: knotificationjobuidelegate.cpp:29
 #, fuzzy, qt-format
 #| msgid "%1 (Link)"
 msgctxt "KNotificationJobUiDelegate|"
 msgid "%1 (Failed)"
 msgstr "(تړنه) %1"
+
+#: knotificationjobuidelegate.cpp:63
+#, fuzzy, qt-format
+#| msgid "An error occurred while accessing '%1'"
+msgctxt "KNotificationJobUiDelegate|"
+msgid "An unknown error occurred while executing a job: %1"
+msgstr "ته د لاسرسي پر مهال ستونزه رامنځته شوه '%1'"
 
 #: kstatusbarjobtracker.cpp:161
 #, fuzzy
@@ -10233,9 +10240,6 @@ msgstr ""
 
 #~ msgid "&Eject '%1'"
 #~ msgstr "ويستل '%1'&"
-
-#~ msgid "An error occurred while accessing '%1'"
-#~ msgstr "ته د لاسرسي پر مهال ستونزه رامنځته شوه '%1'"
 
 #~ msgid "Custom Path"
 #~ msgstr "دوديز يونلور"
