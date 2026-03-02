@@ -77,7 +77,7 @@ msgstr "%1 (已失败)"
 #, qt-format
 msgctxt "KNotificationJobUiDelegate|"
 msgid "An unknown error occurred while executing a job: %1"
-msgstr ""
+msgstr "执行任务时发生未知错误：%1"
 
 #: kstatusbarjobtracker.cpp:161
 msgctxt "KStatusBarJobTracker|"
